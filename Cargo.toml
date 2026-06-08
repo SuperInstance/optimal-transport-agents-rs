@@ -1,0 +1,9 @@
+[package]
+name = "optimal-transport-agents"
+version = "0.1.0"
+edition = "2021"
+description = "Wasserstein distance and optimal transport between agent distributions"
+license = "MIT"
+
+[dependencies]
+nalgebra = "0.33"
