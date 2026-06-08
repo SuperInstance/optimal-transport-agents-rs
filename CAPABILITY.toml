@@ -1,0 +1,24 @@
+# CAPABILITY.toml — optimal-transport-agents-rs
+# Wasserstein distance and optimal transport for agent distributions
+
+name = "optimal-transport-agents-rs"
+version = "0.1.0"
+description = "Sinkhorn transport, JKO gradient flows, Wasserstein barycenters, and Earth Mover's Distance for agent populations"
+
+provides = [
+    "sinkhorn-transport",
+    "wasserstein-1-distance",
+    "wasserstein-2-distance",
+    "jko-gradient-flow",
+    "distribution-barycenter",
+    "free-support-barycenter",
+    "earth-mover-distance",
+    "emd-1d",
+    "agent-distribution",
+    "optimal-transport-plan",
+]
+
+requires = [
+    "conservation-law-invariant",
+    "nalgebra-linear-algebra",
+]
